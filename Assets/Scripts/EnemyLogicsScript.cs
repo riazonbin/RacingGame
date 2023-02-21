@@ -8,7 +8,12 @@ public class EnemyLogicsScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        speed = Random.Range(-4f, 5f);
+        if(transform.parent.name.Contains("TopSpawn"))
+        {
+            speed = Random.Range(-4f, -1f);
+            return;
+        }
+        speed = Random.Range(1f, 5f);
     }
 
     // Update is called once per frame
