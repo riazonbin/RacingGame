@@ -4,23 +4,15 @@ using UnityEngine;
 
 public class RoadMovementScript : MonoBehaviour
 {
-    public float scrollSpeed;
-    public float repeatDistance;
-
-    private Vector3 startPosition;
-
-    void Start()
-    {
-        startPosition = transform.position;
-    }
+    public float speed = 5f;
 
     void Update()
     {
-        transform.position += new Vector3(0, -scrollSpeed * Time.deltaTime, 0);
+        transform.Translate(Vector3.down * speed * Time.deltaTime);
 
-        if (transform.position.y < startPosition.y + repeatDistance)
+        if (transform.position.y <= -4.56f)
         {
-            transform.position = startPosition;
+            transform.position = new Vector3(transform.position.x, -0.76f, transform.position.z);
         }
     }
 }

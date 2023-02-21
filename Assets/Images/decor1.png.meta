@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -1914,7 +1914,6 @@ TextureImporter:
       decor1_14: -1493693526
       decor1_60: -664117342
       decor1_6: -263476096
-      decor1_78: 1908297590
       decor1_84: -635697280
       decor1_73: -1772208300
       decor1_22: -906677717
@@ -1945,6 +1944,7 @@ TextureImporter:
       decor1_82: -1876423811
       decor1_71: 1185088686
       decor1_48: -963237406
+      decor1_67: -2138406456
       decor1_21: -152208790
       decor1_40: -350435110
       decor1_58: -1761750637
@@ -1991,9 +1991,9 @@ TextureImporter:
       decor1_74: -1683250564
       decor1_19: 944179760
       decor1_54: -967164002
-      decor1_31: 2103024879
       decor1_59: -1502510130
-      decor1_67: -2138406456
+      decor1_78: 1908297590
+      decor1_31: 2103024879
       decor1_79: -1053567300
       decor1_75: 1767676341
   spritePackingTag: 

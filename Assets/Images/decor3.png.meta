@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,642 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: decor3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 691
+        width: 491
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d497a563b70c546a8b1b464d2d8802
+      internalID: -2011088638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_1
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 609
+        width: 664
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5ae46f4cd160442800d4e0ad260384
+      internalID: 1080280061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_2
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 784
+        width: 47
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136f7684411aa384bbc977bc75b707df
+      internalID: -1486470847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 226
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbb8100eda78a8b478376adcd342b6d1
+      internalID: -542075233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_4
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 548
+        width: 74
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e2b60215aefcf44a8eb9cd00c4a011
+      internalID: 1935996243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 551
+        width: 18
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22eefa14a79869c46bce5fc3d47c1fdd
+      internalID: 83674547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_6
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 687
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 429e47adb84955e47b73b140bf281262
+      internalID: 1379381103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 550
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0503007ecdf7c94d8c76a94a032eb35
+      internalID: -465735202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_8
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 583
+        width: 27
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0345edc31f65da441ae95795284b193d
+      internalID: 826434622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_9
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 590
+        width: 228
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e31ddb10b4d72c941ba8b16d3c095012
+      internalID: 404419739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 545
+        width: 206
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40500b3ab0f01a4f8d2a36ff867ae8d
+      internalID: 741014505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_11
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 369
+        width: 163
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31a2d2436026ca04da57f037e6534214
+      internalID: 1200975166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_12
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 454
+        width: 78
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31b25ecfd0277b743b7dd6971d866985
+      internalID: -1066171172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 2
+        width: 282
+        height: 546
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81f45a3653d3c944824ebc3824a4acf
+      internalID: -1725351108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_14
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 320
+        width: 215
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091212931f8f80a4cb94f8b5a9bef448
+      internalID: 1857942983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_15
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 292
+        width: 100
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3c218c36bc30a4083a66106719b5c2
+      internalID: -1788803290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_16
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 291
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5c18fee3105cd14f8612fa6c20730fa
+      internalID: 1339845302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 340
+        width: 143
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b351f404f8888e44b134c2922e88ec3
+      internalID: 552856951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_18
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 344
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de03f8402d7454d4ba5f0659d35583bd
+      internalID: 470372889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_19
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 323
+        width: 285
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd07d6315875e5f498f681ef71ac68f3
+      internalID: 59453576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_20
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 314
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f34de480f6d54479f877e4a80a95c6
+      internalID: -2025694643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_21
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 2
+        width: 184
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46fd0e0fd71e8247b664f65a18cf66f
+      internalID: -1875354591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_22
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1
+        width: 186
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8af5345e03f8ae945bdb3e5e283e77e3
+      internalID: 1695290379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_23
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 2
+        width: 7
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cced6b227f786a145a31c15de154e1f2
+      internalID: -972546532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_24
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 216
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc3af3ddef7faa64fb8b981faee4b8a6
+      internalID: 52901870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_25
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 2
+        width: 7
+        height: 285
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790748a15c43f5841b61be9a8ae4a701
+      internalID: 2132791635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_26
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 122
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b170cc9f47f1a47bca3b5dce02f1a7
+      internalID: 23744039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_27
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 2
+        width: 7
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6182251d13af68347b7e07aa8dbbb484
+      internalID: -1457418596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor3_28
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 28
+        width: 7
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecda0e2192c5adf42af1ece6d7372df5
+      internalID: -1051627840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +722,36 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      decor3_6: 1379381103
+      decor3_20: -2025694643
+      decor3_26: 23744039
+      decor3_23: -972546532
+      decor3_28: -1051627840
+      decor3_8: 826434622
+      decor3_10: 741014505
+      decor3_7: -465735202
+      decor3_15: -1788803290
+      decor3_1: 1080280061
+      decor3_13: -1725351108
+      decor3_24: 52901870
+      decor3_12: -1066171172
+      decor3_19: 59453576
+      decor3_18: 470372889
+      decor3_25: 2132791635
+      decor3_2: -1486470847
+      decor3_9: 404419739
+      decor3_16: 1339845302
+      decor3_27: -1457418596
+      decor3_17: 552856951
+      decor3_4: 1935996243
+      decor3_14: 1857942983
+      decor3_21: -1875354591
+      decor3_5: 83674547
+      decor3_3: -542075233
+      decor3_22: 1695290379
+      decor3_0: -2011088638
+      decor3_11: 1200975166
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
