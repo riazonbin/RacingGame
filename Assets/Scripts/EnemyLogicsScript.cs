@@ -10,10 +10,10 @@ public class EnemyLogicsScript : MonoBehaviour
     {
         if(transform.parent.name.Contains("TopSpawn"))
         {
-            speed = Random.Range(-4f, -1f);
+            speed = Random.Range(-5f, -2f);
             return;
         }
-        speed = Random.Range(1f, 5f);
+        speed = Random.Range(2f, 5f);
     }
 
     // Update is called once per frame
