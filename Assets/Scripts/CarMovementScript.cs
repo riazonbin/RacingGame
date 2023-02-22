@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -29,7 +30,11 @@ public class CarMovementScript : MonoBehaviour
     {
         if(collision.transform == leftBorder || collision.transform == rightBorder)
         {
-            SceneManager.LoadScene(0);
+            Time.timeScale = 0.0f;
+
+            var loseCanvas = SceneManager.GetActiveScene().
+                GetRootGameObjects().FirstOrDefault(x => x.name == "EndGameCanvas");
+            loseCanvas.gameObject.SetActive(true);
         }
     }
 }
