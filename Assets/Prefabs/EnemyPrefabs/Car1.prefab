@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4692803604136974575}
   - component: {fileID: 4692803604136974547}
   - component: {fileID: 4692803604136974546}
-  - component: {fileID: 4692803604136974549}
   - component: {fileID: 8129080263216808292}
   m_Layer: 0
   m_Name: Car1
@@ -125,26 +124,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!95 &4692803604136974549
-Animator:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4692803604136974572}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5bb4124d16b9a4848adfa0a6544dbfbc, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &8129080263216808292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,3 +136,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4a0d0eae06eaad245858b4cfd1634257, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: 0

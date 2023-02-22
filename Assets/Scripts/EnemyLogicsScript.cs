@@ -37,6 +37,5 @@ public class EnemyLogicsScript : MonoBehaviour
 
         Destroy(collision.gameObject);
         Destroy(gameObject);
-
     }
 }

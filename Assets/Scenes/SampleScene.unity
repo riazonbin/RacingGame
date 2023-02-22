@@ -329,7 +329,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 469126931}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.65, y: 8.65, z: 0}
+  m_LocalPosition: {x: 1.65, y: 8.85, z: 0}
   m_LocalScale: {x: 1.091837, y: 10.496616, z: 0.92045}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -684,7 +684,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 713709069}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 1.65, y: -10.86, z: 0}
+  m_LocalPosition: {x: 1.65, y: -11.45, z: 0}
   m_LocalScale: {x: 1.091837, y: 10.496616, z: 0.92045}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1292,7 +1292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78c8eebef2516394c86d5ecddfa26f7b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefabs: []
+  enemyPrefabs:
+  - {fileID: 4692803604136974572, guid: cfaa3a7d275801b478eb63202d75052e, type: 3}
   sprites:
   - {fileID: -2008239403, guid: f23aacec78cc77242a5fdb83970939a8, type: 3}
   - {fileID: -81158513, guid: f23aacec78cc77242a5fdb83970939a8, type: 3}

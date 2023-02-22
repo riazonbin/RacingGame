@@ -33,9 +33,9 @@ public class EnemySpawner : MonoBehaviour
         }
         var enemy = Instantiate(enemyPrefabs[0], newPoint);
         enemy.GetComponent<SpriteRenderer>().sprite = sprites[Random.Range(0, sprites.Count)];
-        var test1 = enemy.GetComponent<SpriteRenderer>().sprite.bounds.size;
-        var test2 = enemy.GetComponent<CapsuleCollider2D>().size;
-        enemy.GetComponent<CapsuleCollider2D>().size = test1;
+
+        var imageBoundsSize = enemy.GetComponent<SpriteRenderer>().sprite.bounds.size;
+        enemy.GetComponent<CapsuleCollider2D>().size = imageBoundsSize;
         lastPoint = newPoint;
 
         yield return new WaitForSeconds(timeToSpawnNewCar);
