@@ -10,7 +10,8 @@ public class CarMovementScript : MonoBehaviour
     public float carSpeed = 5f;
     public Transform leftBorder;
     public Transform rightBorder;
-
+    private Vector2 _direction;
+    bool _isTurning = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,10 +21,24 @@ public class CarMovementScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxisRaw("Horizontal");
-        var target = transform.position;
-        target.x += horizontalInput;
-        transform.position = Vector3.MoveTowards(transform.position, target, carSpeed * Time.deltaTime);
+        if(_isTurning)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, _direction, carSpeed * Time.deltaTime);
+            if (transform.position.x == _direction.x)
+            {
+                _isTurning = false;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.A) && !_isTurning)
+        {
+            _direction.x = transform.position.x - 2;
+            _isTurning = true;
+        }
+        if (Input.GetKeyDown(KeyCode.D) && !_isTurning)
+        {
+            _direction.x = transform.position.x + 2;
+            _isTurning = true;
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
